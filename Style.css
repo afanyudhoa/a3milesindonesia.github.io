@@ -1,0 +1,321 @@
+body {
+    background-color: white;
+    transition: background-color 0.05s ease;
+}
+
+
+.container form{
+    padding-left: 10rem;
+    margin-top: 0.6rem;
+}
+.container li a{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.container li a:hover{
+    color: #0077B6;
+}
+
+.container #form-ragam{
+    margin-top: 0.8rem;
+}
+
+#sumber .kartu li a{
+    color: blue;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#sumber .kartu ol{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#sumber .kartu h4{
+    font-family: sans-serif;
+    margin-left: 0.8rem;
+    font-weight: bold;
+}
+
+.jumbotron h4{
+    text-align: left;
+}
+
+.main-biru1{
+    background-color: #CAF0F8;
+    color: black;
+}
+
+.main-biru h2{
+    font: #12A9D8;
+}
+
+.main-biru p{
+    font: black ;
+}
+
+.main-biru1  h2 span{
+    color: #0077B6;
+}
+
+.d-flex button:hover{
+    background-color: #023E8A;
+}
+
+
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+
+
+.team-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.partner1{
+    background-color:#CAF0F8;
+    color: black;
+}
+
+
+.kartu-team{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-team img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-team p{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: #12A9D8;
+}
+
+.partner-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+#kontak {
+    padding: 50px 0px 50px 0px;
+}
+
+#kontak p{
+    font-size: 13px;
+}
+
+#kontak ul li{
+    font-size: 13px;
+}
+
+
+.main-biru{
+    background-color:white;
+}
+
+.footer {
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.footer-section p{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: small;
+    text-align: justify;
+}
+
+h3{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #12A9D8;
+    width: 100%;
+    line-height: 50px;
+}
+
+
+#ragam img{
+    max-height: 250px;
+    max-width: 300px;
+}
+
+#ragam a{
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+h2.main-judul::after{
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 10px solid #12A9D8;
+    width: 100px;
+    border-radius: 25px;
+    content: "";
+}
+
+
+.main-biru1 a:hover{
+    background-color: #023E8A;
+}
+
+.main-grey{
+    background-color: #CAF0F8;
+    color: black;
+}
+
+
+.main-red a:hover{
+    background-color: #023E8A;
+}
+
+
+.main-grey a:hover{
+    background-color: #023E8A;
+}
+
+.ragam1{
+    background-color: white;
+}
+
+#support img {
+    max-height: 130px;
+    max-width: 130px;
+}
+
+#support a{
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.main-footer-menu img{
+    max-width: 150px;
+}
+
+.main-footer-menu a{
+    color: black;
+}
+
+.main-kontak ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.main-footer-menu ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.main-footer-copyright{
+    color: white;
+    background-color: #03045E;
+}
+
+.copyright{
+    margin-bottom: 0%;
+}
+
+#Ragam video{
+    max-width: 720px;
+    max-height: 720px;
+}
+
+#Ragam img{
+    max-width: 480px;
+    max-height: 480px;
+}
+
+#ragam li{
+    margin-left: 15px;
+}
+
+
+input[type="checkbox"]
+{
+    position:relative;
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    background-color: grey;
+    outline: none;
+    border-radius: 10px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked
+{
+    background-color: #0077B6;
+}
+
+input[type="checkbox"]:before
+{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+}
+
+input[type="checkbox"]:checked:before
+{
+    transform: translateX(20px);
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.kartu table tbody{
+    background-color: #CAF0F8;
+}
+
+.main-biru1 h5{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
